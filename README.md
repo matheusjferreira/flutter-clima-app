@@ -61,6 +61,88 @@ A combinação dessas tecnologias permitiu o desenvolvimento de uma aplicação 
 
 ---
 
+## 1.2 Como rodar a aplicação
+
+### Pré-requisitos
+
+Antes de iniciar, certifique-se de ter instalado:
+
+* Flutter (versão estável recomendada)
+* Dart (já incluso no Flutter)
+* Android Studio ou Visual Studio Code
+* Um dispositivo físico ou emulador configurado
+* (Opcional para Web) Navegador como Google Chrome
+
+Verifique sua instalação com:
+
+```bash
+flutter doctor
+```
+
+---
+
+### Passos para executar o projeto
+
+#### 1️⃣ Clonar o repositório
+
+```bash
+git clone https://github.com/matheusjferreira/flutter-clima-app
+```
+
+```bash
+cd flutter-clima_app
+```
+
+---
+
+#### 2️⃣ Instalar as dependências
+
+```bash
+flutter pub get
+```
+
+---
+
+#### 3️⃣ Executar a aplicação
+
+##### Android / iOS
+
+```bash
+flutter run
+```
+
+---
+
+##### Web
+
+```bash
+flutter run -d chrome
+```
+
+---
+
+##### Gerar build de produção
+
+- Android
+
+```bash
+flutter build apk --release
+```
+
+- WEB
+
+```bash
+flutter build web
+```
+
+O build será gerado em:
+
+```
+build/web/
+```
+
+---
+
 ## 2. Objetivo do Projeto
 
 Desenvolver um sistema capaz de:
